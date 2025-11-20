@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeShare – Upload</title>
+    <link rel="stylesheet" href="css/upload.css">
+</head>
+<body>
+
+<!-- SIDEBAR (same as your other pages) -->
+<aside class="sidebar">
+    <h2 class="brand"><img src="images/logo.png"> VibeShare</h2>
+
+    <ul class="menu">
+        <li><a href="index.html"><img src="images/icons/home.png"><span>Home</span></a></li>
+        <li><a href="search.html"><img src="images/icons/search.png"><span>Search</span></a></li>
+        <li><a href="explore.html"><img src="images/icons/explore.png"><span>Explore</span></a></li>
+        <li><a href="#"><img src="images/icons/reels.png"><span>Reels</span></a></li>
+        <li><a href="messages.html"><img src="images/icons/message.png"><span>Messages</span></a></li>
+        <li><a href="notifications.html"><img src="images/icons/notify.png"><span>Notifications</span></a></li>
+        <li><a href="upload.html"><img src="images/icons/upload.png"><span>Create</span></a></li>
+        <li><a href="profile.html"><img src="images/users/user1.png" class="menu-pfp"><span>Profile</span></a></li>
+    </ul>
+</aside>
+
+
+<!-- MAIN AREA -->
+<main class="upload-main">
+
+    <h2 class="title">Create a New Post</h2>
+
+    <div class="upload-box" id="drop-zone">
+
+        <div class="floating-icon"></div>
+
+        <img src="images/icons/upload.png" class="upload-icon">
+        <p>Drag & Drop your Image<br>or Click to Browse</p>
+
+        <input type="file" id="file-input" accept="image/*" hidden>
+
+        <img id="preview" class="preview-img">
+    </div>
+
+    <textarea class="caption-box" placeholder="Write a caption..."></textarea>
+
+    <button class="post-btn">Post</button>
+
+</main>
+
+
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#000;
+    color:white;
+    font-family:Arial, sans-serif;
+    display:flex;
+    overflow-x:hidden;
+}
+
+/* SIDEBAR */
+.sidebar{
+    width:250px;
+    height:100vh;
+    padding:20px;
+    border-right:1px solid #262626;
+    background:rgba(0,0,0,0.4);
+    backdrop-filter:blur(12px);
+    position:fixed;
+}
+.brand{
+    display:flex;
+    gap:10px;
+    align-items:center;
+    margin-bottom:40px;
+}
+.brand img{ width:40px; }
+
+.menu li a{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:12px;
+    color:white;
+    text-decoration:none;
+    border-radius:10px;
+    transition:0.3s;
+}
+.menu li a:hover{
+    background:#111;
+    transform:translateX(8px);
+}
+.menu img{
+    width:26px;
+}
+.menu-pfp{
+    width:32px;
+    height:32px;
+    border-radius:50%;
+}
+
+/* MAIN NOTIFICATIONS AREA */
+.notify-main{
+    margin-left:250px;
+    padding:40px;
+    width:100%;
+}
+
+.title{
+    font-size:26px;
+    margin-bottom:20px;
+}
+
+/* NOTIFICATION CARD */
+.notify-card{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    background:#111;
+    border:1px solid #222;
+    padding:15px;
+    border-radius:12px;
+    margin-bottom:15px;
+    transition:0.3s;
+}
+.notify-card:hover{
+    background:#181818;
+    transform:translateX(8px);
+}
+
+/* USER PIC */
+.notify-pic{
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+/* PREVIEW POST PIC */
+.notify-preview{
+    width:60px;
+    height:60px;
+    object-fit:cover;
+    border-radius:8px;
+    margin-left:auto;
+}
+
+/* FOLLOW BUTTON */
+.follow-btn{
+    margin-left:auto;
+    padding:8px 16px;
+    border:none;
+    background:#0095f6;
+    border-radius:8px;
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+}
+.follow-btn:hover{
+    background:#007ad1;
+}
+
+/* MOBILE */
+@media(max-width:700px){
+    .sidebar{ display:none; }
+    .notify-main{
+        margin-left:0;
+        padding:20px;
+    }
+}
