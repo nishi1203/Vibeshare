@@ -1,4 +1,4 @@
-/* RESET */
+
 *{
     margin:0;
     padding:0;
@@ -13,7 +13,6 @@ body{
     overflow-x:hidden;
 }
 
-/* SIDEBAR */
 .sidebar{
     width:250px;
     height:100vh;
@@ -54,7 +53,6 @@ body{
     border-radius:50%;
 }
 
-/* MAIN NOTIFICATIONS AREA */
 .notify-main{
     margin-left:250px;
     padding:40px;
@@ -66,7 +64,6 @@ body{
     margin-bottom:20px;
 }
 
-/* NOTIFICATION CARD */
 .notify-card{
     display:flex;
     align-items:center;
@@ -83,7 +80,6 @@ body{
     transform:translateX(8px);
 }
 
-/* USER PIC */
 .notify-pic{
     width:55px;
     height:55px;
@@ -91,7 +87,6 @@ body{
     object-fit:cover;
 }
 
-/* PREVIEW POST PIC */
 .notify-preview{
     width:60px;
     height:60px;
@@ -100,7 +95,6 @@ body{
     margin-left:auto;
 }
 
-/* FOLLOW BUTTON */
 .follow-btn{
     margin-left:auto;
     padding:8px 16px;
@@ -115,7 +109,6 @@ body{
     background:#007ad1;
 }
 
-/* MOBILE */
 @media(max-width:700px){
     .sidebar{ display:none; }
     .notify-main{

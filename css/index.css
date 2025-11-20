@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
     overflow-x: hidden;
 }
 
-/* ✅ LEFT SIDEBAR */
+
 .sidebar {
     width: 260px;
     height: 100vh;
@@ -35,7 +35,6 @@ body {
     width: 40px;
 }
 
-/* MENU */
 .menu {
     list-style: none;
 }
@@ -67,19 +66,17 @@ body {
 }
 
 .menu-pfp {
-    width: 30px !important;
+    width: 30px;
     height: 30px;
     border-radius: 50%;
 }
 
-/* ✅ MAIN CONTENT */
 .main {
     margin-left: 260px;
     width: 60%;
     padding: 20px 100px;
 }
 
-/* STORIES */
 .stories {
     display: flex;
     gap: 15px;
@@ -87,9 +84,7 @@ body {
     overflow-x: auto;
 }
 
-.stories::-webkit-scrollbar {
-    display: none;
-}
+
 
 .story img {
     width: 65px;
@@ -104,7 +99,6 @@ body {
     font-size: 12px;
 }
 
-/* FEED */
 .feed {
     margin-top: 20px;
 }
@@ -150,7 +144,6 @@ body {
     padding: 0 12px 12px 12px;
 }
 
-/* ✅ RIGHT PANEL */
 .right-panel {
     width: 300px;
     padding: 30px 10px;
