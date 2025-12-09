@@ -1,3 +1,4 @@
+/* RESET */
 *{
     margin:0;
     padding:0;
@@ -12,6 +13,7 @@ body{
     overflow:hidden;
 }
 
+/* SIDEBAR */
 .sidebar{
     width:250px;
     height:100vh;
@@ -56,6 +58,7 @@ body{
     border-radius:50%;
 }
 
+/* MAIN MESSAGES AREA */
 .messages-main{
     margin-left:250px;
     display:flex;
@@ -63,6 +66,7 @@ body{
     height:100vh;
 }
 
+/* LEFT CHAT LIST */
 .chat-list{
     width:30%;
     padding:30px;
@@ -102,6 +106,7 @@ body{
     font-size:13px;
 }
 
+/* CHAT WINDOW */
 .chat-window{
     width:70%;
     display:flex;
@@ -110,6 +115,7 @@ body{
     position:relative;
 }
 
+/* HEADER */
 .chat-header{
     display:flex;
     align-items:center;
@@ -126,12 +132,14 @@ body{
     font-size:20px;
 }
 
+/* MESSAGES AREA */
 .messages-area{
     flex:1;
     padding:20px 0;
     overflow-y:auto;
 }
 
+/* Message bubbles */
 .msg{
     max-width:60%;
     padding:12px 16px;
@@ -150,6 +158,7 @@ body{
     align-self:flex-end;
 }
 
+/* SEND BOX */
 .send-box{
     display:flex;
     align-items:center;
@@ -179,6 +188,7 @@ body{
     background:#007ad1;
 }
 
+/* MOBILE */
 @media(max-width:900px){
     .chat-list{ width:40%; }
     .chat-window{ width:60%; }
